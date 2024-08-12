@@ -1,0 +1,51 @@
+/* 设置网页的整体样式 */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置游戏面板的样式 */
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* 设置每个方块的样式 */
+.tile {
+    background-color: #ccc;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #333;
+}
+
+/* 设置控制按钮的样式 */
+.controls {
+    margin: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #8bc34a;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #7cb342;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入 CSS 文件 -->
+</head>
+<body>
+    <h1>2048 Game</h1>
+    <div class="controls">
+        <button onclick="startGame(512)">Easy (512)</button>
+        <button onclick="startGame(1024)">Medium (1024)</button>
+        <button onclick="startGame(2048)">Hard (2048)</button>
+    </div>
+    <div id="game-board" class="board"></div> <!-- 游戏板 -->
+    <script src="game.js"></script> <!-- 引入 JavaScript 文件 -->
+</body>
+</html>
